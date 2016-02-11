@@ -1,7 +1,7 @@
 {
   "name": "shp2json",
   "description": "Convert shapefile zip archives into GeoJSON using ogr2ogr with a streaming interface",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "repository": {
     "type": "git",
     "url": "git://github.com/substack/shp2json.git"
@@ -33,7 +33,7 @@
     "duplexify": "^3.2.0",
     "findit": "0.1.x",
     "from2": "^1.2.0",
-    "gdal": "^0.4.1",
+    "gdal": "^0.8.0",
     "morestreams": "0.1.x",
     "seq": "0.3.x",
     "through2": "^0.6.2"
@@ -43,7 +43,7 @@
     "tape": "^3.0.0"
   },
   "engines": {
-    "node": ">=0.10.0"
+    "node": ">=4.0.0"
   },
   "license": "MIT",
   "author": {
